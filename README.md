@@ -1,8 +1,12 @@
 # DomainSpy
 Bulk lookup domains using VirusTotal API and enrich with IP-API.
+
 This script takes a `.txt` file with each domain on a separate newline as input.
+
 Replace line 9 with your own API key for VT. The IP-API portion does not require an API key.
+
 If the domain does not have an A record in VT, it will use another VT API lookup to grab the A record for the root domain.
+
 This script **does not** currently have quota handling for VT API built in.
 
 # Requirements
